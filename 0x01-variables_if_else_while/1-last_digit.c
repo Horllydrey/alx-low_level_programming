@@ -15,7 +15,7 @@ int n, lastDigit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2
-/*your codd goes there*/
+/*your code goes there*/
 lastDigit = n % 10;
 if (lastDigit > 5)
 {
