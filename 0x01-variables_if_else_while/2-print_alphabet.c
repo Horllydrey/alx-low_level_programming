@@ -4,9 +4,7 @@
 
 /**
  * main - returns alphabelts
- * Decription: prints a-z
- *
- * Return: Always 0 (success)
+ * Return: returns (0) successful
  */
 int main(void)
 {
