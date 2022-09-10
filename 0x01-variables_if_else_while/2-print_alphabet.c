@@ -3,22 +3,20 @@
 #include<time.h>
 
 /**
- * main: Entry point
- * Decription:prints a-z
+ * main - returns alphabelts
+ * Decription: prints a-z
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-char ch;
-char hehe = "\n";
+	int ch = "a";
 
-for (ch = "a"; 
-		ch <= "z";
-		ch ++)
-{
-putchar(ch);
-}
-putchar(hehe);
-return (0);
+	while (ch <= "z")
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar("\n");
+	return (0);
 }
