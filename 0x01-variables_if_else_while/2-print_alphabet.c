@@ -6,7 +6,7 @@
  * main - returns alphabelts
  * Return: returns (0) successful
  */
-int main(void)
+char main(void)
 {
 	char ch = "a";
 
