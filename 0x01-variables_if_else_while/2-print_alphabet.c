@@ -1,20 +1,18 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
 
 /**
- * main - returns alphabelts
- * Return: returns (0) successful
+ * main - prints the alphabet in lowercase
+ *
+ * Return: Always 0
  */
-char main(void)
+int main(void)
 {
-	char ch = "a";
+	char letter;
 
-	while (ch <= "z")
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar("\n");
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
