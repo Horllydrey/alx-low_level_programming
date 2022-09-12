@@ -8,7 +8,6 @@
 int main(void)
 {
 	char ch;
-	char hehe = "\n";
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
