@@ -8,20 +8,17 @@
 int main(void)
 {
 	char ch;
-	char hehe;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch == 'e')
+		if (ch != 'e' && ch != 'q')
 		{
-			continue;
+			putchar(ch);
 		}
-		if (ch == 'q')
+		else
 		{
-			continue;
 		}
-		putchar(ch);
 	}
-	putchar(hehe);
+	putchar('\n');
 	return (0);
 }
