@@ -1,18 +1,18 @@
 #include<stdio.h>
-#include<unistd.h>
+
 /**
  * main - Entry point
- * Description: prints all single numbers of base 10 from 0
- * Return: Always 0 (successful)
+ *
+ * Description: prints digits 0 - 9
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int y;
-
-	for (y = 0; y <= 10; y++)
-	{
-		putchar("%d", y);
-	}
-	putchar('\n');
-	return (0);
+int i;
+for (i = 0; i < 10; i++)
+}
+printf("%d", i);
+return (0);
 }
