@@ -3,14 +3,13 @@
 /**
  * print_numbers - prints integer from 0 - 9
  */
-
 void print_number(void)
 {
-	int i = 0;
+	int i;
 
-	while (i <= 9)
+	for (i = 48; i <= 57; i++)
 	{
-		_putchar('0' + i);
+		_putchar(i);
 		i++;
 	}
 	_putchar('\n');
