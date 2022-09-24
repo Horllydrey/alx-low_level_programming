@@ -16,7 +16,7 @@ char *leet(char *str)
 	while (str[a])
 	{
 		b = 0;
-	}
+
 	while (b < 1)
 	{
 		if (str[a] == r[b] || str[a] - 32 == r[b])
@@ -26,4 +26,6 @@ char *leet(char *str)
 		b++;
 	}
 	a++;
+	}
 	return (str);
+}
