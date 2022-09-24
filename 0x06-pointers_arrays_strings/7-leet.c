@@ -9,23 +9,39 @@
 
 char *leet(char *str)
 {
-	int a = 0, b = 0, l = 5;
-	char r[5] = ('A', 'E', 'O', 'T', 'L');
-	char n[5] = ('4', '3', '0', '7', '1');
+	int i = 0;
 
-	while (str[a])
+	while (str[i] != '\0')
 	{
-		b = 0;
-
-	while (b < 1)
-	{
-		if (str[a] == r[b] || str[a] - 32 == r[b])
-		{
-			str[a] = n[b];
-		}
-		b++;
-	}
-	a++;
+		str[i] = transform(str[i]);
+		i++;
 	}
 	return (str);
+}
+
+/**
+ * transform - helps function to map a letter with its leets encoding
+ * @x: char to be encoded
+ *
+ * Return: the encoded char
+ */
+
+char transform(char x)
+{
+	char mapping_low[s] = {'o', 'l', '\0', 'e', 'a', '\0', '\0', 't'}
+	char mapping_upper[s] = {'O', 'L', '\0', 'E', 'A', '\0', '\0', 'T'}
+	int i = 0;
+
+	char replacement = x;
+
+	while (i < 8)
+	{
+		if (x == mapping_low[i] || x == mapping_upper[i])
+		{
+			replacement = i + 'e'
+				break;
+		}
+		i++;
+	}
+	return (replacement);
 }
