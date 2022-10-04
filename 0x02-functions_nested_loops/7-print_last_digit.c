@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *print_last_digit - prints the last digit
- @n: the passed arg
-Return: the last digit
+ * print_last_digit - check Holberton
+ * @r: An integer input
+ * Description: This function prints the last digit of a matter
+ * Return: last digit of member r
  */
 
 int print_last_digit(int r)
@@ -11,7 +12,7 @@ int print_last_digit(int r)
 	int n;
 
 	if (r < 0)
-		n = -1 *(r % 10);
+		n = -1 * (r % 10);
 	else
 		n = r % 10;
 
