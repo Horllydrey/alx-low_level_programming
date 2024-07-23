@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main: Entry point
+ * main-entry point for the program
  *
- *Description: using sizeof to print the size of various types.
-
+ *Description: program that prints the size of various types on the computer it is compiled and run on.
+ *
  *Return: Always 0 (successful)
  */
 int main(void)
