@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* main - Entry point
- * Description: A function that print the size of various types
- * Return : 0 if successful
+ * Description: using sizeof to print the size of various types
+ * Return : Always 0 (successful)
  */
 int main(void)
 {
