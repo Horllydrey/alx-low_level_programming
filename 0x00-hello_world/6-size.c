@@ -2,7 +2,7 @@
 /**
  * main-entry point for the program
  *
- *Description: program that prints the size of various types on the computer it is compiled and run on.
+ *Description: program that prints the size of various types.
  *
  *Return: Always 0 (successful)
  */
