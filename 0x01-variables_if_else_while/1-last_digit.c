@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* main-entry point
+ * Description: functions that print the last digit
+ */
+
 int main(void)
 {
 	int n;
