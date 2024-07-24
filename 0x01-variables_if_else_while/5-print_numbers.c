@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main-entry point
+ * main - entry point
  * Description: fuction that prints single integers
  * Returns: 0 if successful
  */
