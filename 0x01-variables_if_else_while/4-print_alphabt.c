@@ -1,22 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main-entry point
- * Description: function that prints all aphabet except q and e
+ * main - entry point
+ * Description: function that prints lower case
  * Return: 0 if successful
  */
 int main(void)
 {
-	char alpha = 'a';
-	while (alpha <= 'z');
-{
-	if((alpha =! 'e') && (alpha =! 'q'))
+	char letter = 'a';
+	while (letter <= 'z')
 	{
-		putchar(alpha);
+		if ((letter != 'e') && (letter != 'q'))
+		{
+				putchar(letter);
 	}
-	alpha++;
+	letter++;
 }
 putchar('\n');
 return (0);
