@@ -2,29 +2,27 @@
 /**
  * main - entry point
  * Description: function that combines integers
- * Return: o if successful
+ * Return: 0 if successful
  */
 int main(void)
 {
-	int a = '0';
-	int b = '0';
+	int a, b;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = '0'; a < '9'; a++)
 	{
-		for (b = '0'; b <= '9'; b++)
-		{
+	for (b = a + 1; b <= '9'; b++)
+	{
+	if (b != a)
+	{
+	putchar(a);
+putchar(b);
+if (a == '8' && b == '9')
+	continue;
 
-			if (!((a == b) || (a > b)))
-			{
-				putchar(a);
-				putchar(b);
-				if (!(a == '9' && b == '8'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
+putchar(',');
+putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	return (0);
