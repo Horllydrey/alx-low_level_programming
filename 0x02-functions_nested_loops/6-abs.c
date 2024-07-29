@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * int_abs - a function that prints the absolute value of a number
- * @n: parameter to be checked
+ * _abs - a function that prints the absolute value of a number
+ * @number: parameter to be checked
  * Return: 0 if successful
  */
 int _abs(int number)
@@ -16,3 +16,4 @@ int _abs(int number)
 		return (number * -1);
 	}
 }	
+
