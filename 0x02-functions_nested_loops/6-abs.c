@@ -15,5 +15,5 @@ int _abs(int number)
 	{
 		return (number * -1);
 	}
-}	
+}
 
